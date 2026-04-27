@@ -89,7 +89,7 @@ layers:
   - PG UP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - INS
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
