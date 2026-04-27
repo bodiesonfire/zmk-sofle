@@ -172,7 +172,7 @@ layers:
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&studio_unlock'
-  - EP TOG
+  - EP ON
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
