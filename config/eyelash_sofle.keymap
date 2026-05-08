@@ -117,11 +117,11 @@
 
         layer_3 {
             bindings = <
-&kp ESC    &kp N1     &kp N2        &kp N3        &kp N4       &kp N5       &kp PAGE_UP    &trans     &trans  &trans  &trans  &trans      &trans
-&kp TAB    &kp TAB    &kp Q         &kp W         &kp E        &kp R        &kp PG_DN      &trans     &trans  &trans  &trans  &trans      &trans
-&kp CAPS   &trans     &kp A         &kp S         &kp D        &kp F        &kp LC(LEFT)   &trans     &trans  &trans  &trans  &trans      &trans
-&kp LCTRL  &kp LSHFT  &kp Z         &kp X         &kp C        &kp V        &kp LC(RIGHT)  &trans     &trans  &trans  &trans  &trans      &mt RIGHT_SHIFT ENTER
-&mkp MCLK  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 SPACE  &kp SPACE    &none          &kp SPACE  &mo 1   &mo 2   &trans  &kp DELETE
+&kp ESC    &kp N1     &kp N2  &kp N3        &kp N4        &kp N5       &kp PAGE_UP    &trans     &trans  &trans  &trans  &trans      &trans
+&kp TAB    &kp TAB    &kp Q   &kp W         &kp E         &kp R        &kp PG_DN      &trans     &trans  &trans  &trans  &trans      &trans
+&kp CAPS   &trans     &kp A   &kp S         &kp D         &kp F        &kp LC(LEFT)   &trans     &trans  &trans  &trans  &trans      &trans
+&kp LCTRL  &kp LSHFT  &kp Z   &kp X         &kp C         &kp V        &kp LC(RIGHT)  &trans     &trans  &trans  &trans  &trans      &mt RIGHT_SHIFT ENTER
+&mkp MCLK  &kp LCTRL  &mo 4   &kp LEFT_ALT  &kp LEFT_ALT  &kp SPACE    &none          &kp SPACE  &mo 1   &mo 2   &trans  &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
