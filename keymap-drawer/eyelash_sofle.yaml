@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  layer0:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - layer1
   - layer2
-  - {t: layer3, h: toggle}
+  - {t: Gaming, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - layer3
+  - Gaming
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,7 +195,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer3:
+  Gaming:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -203,12 +203,12 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - PgUp
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -216,12 +216,12 @@ layers:
   - R
   - T
   - PG DN
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -229,12 +229,12 @@ layers:
   - F
   - G
   - Ctl+$$mdi:arrow-left-bold$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -242,11 +242,11 @@ layers:
   - V
   - B
   - Ctl+$$mdi:arrow-right-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:apple-keyboard-control$$
@@ -254,10 +254,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: layer2, type: held}
   - $$mdi:keyboard-space$$
-  - INS
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - {t: layer1, type: held}
-  - $$mdi:apple-keyboard-shift$$
+  - layer2
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   layer4:
