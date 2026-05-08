@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/rgb.h>
+// #include <dt-bindings/zmk/rgb.h>
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -85,11 +85,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4                           &kp F5             &kp UP_ARROW    &kp F6           &kp F7           &kp F8      &kp F9     &kp F10   &kp DEL
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK                        &mkp MB4           &kp DOWN_ARROW  &kp PG_UP        &none            &kp UP      &kp INS    &kp HOME  &kp PG_UP
-&trans      &kp TILDE        &trans          &trans           &rgb_ug RGB_COLOR_HSB(0,100,50)  &mkp MB5           &kp LEFT        &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp END   &kp PG_DN
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR                  &rgb_ug RGB_SPI    &kp RIGHT       &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12   &trans
-&kp C_MUTE  &trans           &trans          &trans           &mo 3                            &kp SPACE          &kt LCTRL       &trans           &trans           &trans      &trans     &trans
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4        &kp F5          &kp UP_ARROW    &kp F6          &kp F7     &kp F8      &kp F9     &kp F10   &kp DEL
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK     &mkp MB4        &kp DOWN_ARROW  &kp PG_UP       &none      &kp UP      &kp INS    &kp HOME  &kp PG_UP
+&trans      &kp TILDE        &trans          &trans           &trans        &mkp MB5        &kp LEFT        &kp PG_DN       &kp LEFT   &kp DOWN    &kp RIGHT  &kp END   &kp PG_DN
+&trans      &trans           &trans          &trans           &trans        &trans          &kp RIGHT       &trans          &trans     &kp INSERT  &kp F11    &kp F12   &trans
+&kp C_MUTE  &trans           &trans          &trans           &mo 3         &kp SPACE       &kt LCTRL       &trans          &trans     &trans      &trans     &trans
             >;
 
             display-name = "layer1";
