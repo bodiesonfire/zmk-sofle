@@ -62,8 +62,8 @@ layers:
   - INS
   - $$mdi:keyboard-space$$
   - layer1
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - layer2
+  - {t: layer3, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
@@ -192,7 +192,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer3:
@@ -258,7 +258,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: layer1, type: held}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   layer4:
   - {t: '$$mdi:transfer$$', type: trans}
