@@ -262,7 +262,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   layer4:
   - {t: '5', s: '%'}
-  - '6'
+  - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
