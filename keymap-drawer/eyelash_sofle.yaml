@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  layer0:
+  Default:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -57,15 +57,15 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - layer2
+  - Power
   - $$mdi:keyboard-space$$
   - INS
   - $$mdi:keyboard-space$$
-  - layer1
-  - layer2
+  - Function
+  - Power
   - {t: Gaming, h: toggle}
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  Function:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer2:
+  Power:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -144,44 +144,44 @@ layers:
   - F9
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - EP TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - EP ON
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - EP TOG
+  - EP ON
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
-  - EP ON
+  - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - EP OFF
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - EP ON
-  - {t: '$$mdi:transfer$$', type: trans}
+  - EP OFF
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - EP OFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&studio_unlock'
   - EP ON
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
-  - $$mdi:progress-download$$
+  - EP TOG
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - EP OFF
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - '&soft_off'
+  - EP TOG
   - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -223,7 +223,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - A
   - S
   - D
@@ -235,7 +235,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -252,15 +252,15 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: layer4}
+  - {t: '$$mdi:keyboard-space$$', h: Gaming extras}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
-  - layer1
-  - layer2
+  - Function
+  - Power
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  layer4:
+  Gaming extras:
   - '~'
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
@@ -391,5 +391,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [14, 28, 40]
-  k: '&soft_off'
+- p: [39, 56, 11]
+  k: {t: '-', s: _}
+- p: [39, 56, 12]
+  k: +
