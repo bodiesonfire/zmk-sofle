@@ -121,10 +121,10 @@
 &kp TAB    &kp TAB         &kp Q   &kp W   &kp E      &kp R       &kp PG_DN      &trans     &trans  &trans  &trans  &trans      &trans
 &kp LCTRL  &kp LEFT_SHIFT  &kp A   &kp S   &kp D      &kp F       &kp LC(LEFT)   &trans     &trans  &trans  &trans  &trans      &trans
 &kp LCTRL  &kp LEFT_SHIFT  &kp Z   &kp X   &kp C      &kp V       &kp LC(RIGHT)  &trans     &trans  &trans  &trans  &trans      &mt RIGHT_SHIFT ENTER
-&mkp MCLK  &kp LCTRL       &none   &mo 4   &kp SPACE  &kp LALT    &none          &kp SPACE  &mo 1   &mo 2   &trans  &kp DELETE
+&trans     &kp LCTRL       &none   &mo 4   &kp SPACE  &kp LALT    &none          &kp SPACE  &mo 1   &mo 2   &trans  &kp DELETE
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             display-name = "Gaming";
         };
 
